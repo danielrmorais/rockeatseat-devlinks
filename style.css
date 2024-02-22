@@ -35,7 +35,8 @@ body * {
 }
 
 #container {
-  width: 360px;
+  width: 100%;
+  max-width: 588px;
   margin: 56px auto 0px;
   padding: 0 24px;
 }
@@ -88,13 +89,13 @@ ul {
   transform: translateY(-50%);
   transition: left 0.4s;
   box-shadow: 1px 0px 5px var(--stroke-color);
+  cursor: pointer;
 }
 
 .light #swith button{
   right: 0;
   left: 32px;
   box-shadow: -1px 0px 5px var(--stroke-color);
-
 }
 
 #swith span{
