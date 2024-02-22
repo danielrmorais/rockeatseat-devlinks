@@ -93,11 +93,18 @@ ul {
   cursor: pointer;
 }
 
+#swith button:hover{
+  outline: 8px solid var(--highlight-color);
+}
+
+
 .light #swith button{
   right: 0;
   left: 32px;
   box-shadow: -1px 0px 5px var(--stroke-color);
 }
+
+
 
 #swith span{
   display: block;
